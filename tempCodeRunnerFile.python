@@ -1,0 +1,5 @@
+a = input("Enter string: ")
+start_up = a[:3]
+end_up = a[-3:]
+rem = a[3:]
+print(start_up.upper() + rem + end_up.upper())
